@@ -1,15 +1,17 @@
 "use client";
 
-import { ArrowDownOutlined } from "@ant-design/icons";
+import { ArrowDownOutlined, WhatsAppOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import React from "react";
 
 export default function Hero() {
-  const scrollToPrice = () => {
-    const priceElement = document.getElementById("price");
-    if (priceElement) {
-      priceElement.scrollIntoView({ behavior: "smooth" }); // Scroll dengan animasi smooth
-    }
+  const sendWhatsAppMessage = () => {
+    const phoneNumber = "6285227593225";
+    const message = "Halo, saya tertarik untuk konsultasi pembuatan website.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
   };
   return (
     <div className="p-5 h-full w-full">
@@ -18,24 +20,25 @@ export default function Hero() {
           style={{ textShadow: "0px 5px 16px #404040" }}
           className={`font-bold text-4xl md:text-6xl text-white max-w-3xl`}
         >
-          Jasa Pembuatan Webiste dan Aplikasi Web Terpercaya
+          Siap Tingkatkan Bisnis Anda?
         </h3>
         <p
           style={{ textShadow: "0px 5px 16px #404040" }}
           className="max-w-3xl text-white text-lg md:text-xl font-bold"
         >
-          Jadikan bisnis Anda lebih mudah ditemukan dan lebih dipercaya dengan
-          website yang dirancang khusus untuk kebutuhan Anda.
+          Mulailah sekarang dan wujudkan website impian Anda! <br /> Klik tombol
+          di bawah untuk konsultasi GRATIS dengan tim ahli kami.
         </p>
+
         <Button
-          icon={<ArrowDownOutlined />}
-          onClick={scrollToPrice}
+          onClick={sendWhatsAppMessage}
+          icon={<WhatsAppOutlined />}
           type="primary"
           shape="round"
           size="large"
-          className="text-black"
+          className="text-black text-bold"
         >
-          <b>Cek Harga</b>
+          <b>HUBUNGI KAMI</b>
         </Button>
       </div>
     </div>

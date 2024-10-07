@@ -1,8 +1,18 @@
+"use client";
+
 import { CheckOutlined, WhatsAppOutlined } from "@ant-design/icons";
 import { Button, Card } from "antd";
 import React from "react";
 
 export default function Price() {
+  const sendWhatsAppMessage = () => {
+    const phoneNumber = "6285227593225";
+    const message = "Halo, saya mau order pembuatan website.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
+  };
   return (
     <div id="price" className="p-5 py-10">
       <div className="text-center">
@@ -76,6 +86,7 @@ export default function Price() {
           <div className="mt-6 w-full">
             <Button
               icon={<WhatsAppOutlined />}
+              onClick={sendWhatsAppMessage}
               type="primary"
               shape="round"
               size="large"
@@ -149,6 +160,7 @@ export default function Price() {
           <div className="mt-6 w-full">
             <Button
               icon={<WhatsAppOutlined />}
+              onClick={sendWhatsAppMessage}
               type="primary"
               shape="round"
               size="large"
@@ -222,6 +234,7 @@ export default function Price() {
           <div className="mt-6 w-full">
             <Button
               icon={<WhatsAppOutlined />}
+              onClick={sendWhatsAppMessage}
               type="primary"
               shape="round"
               size="large"
