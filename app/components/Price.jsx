@@ -7,7 +7,7 @@ import React from "react";
 export default function Price() {
   const sendWhatsAppMessage = () => {
     const phoneNumber = "6285227593225";
-    const message = "Halo, saya mau order pembuatan website.";
+    const message = "Halo, saya mau order jasa pembuatan website.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
