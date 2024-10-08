@@ -14,7 +14,7 @@ export default function Price() {
     window.open(url, "_blank");
   };
   return (
-    <div id="price" className="p-5 py-10">
+    <div id="price" className="p-4 py-10">
       <div className="text-center">
         <h1 className="font-bold text-4xl mb-3">
           Solusi Terbaik untuk Klien Kami
