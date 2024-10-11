@@ -8,6 +8,7 @@ export default function ItemPortfolio({ image = "", title = "", link = "" }) {
   };
   return (
     <Card
+      data-aos="zoom-in"
       className="border-none"
       title={<h3 className="text-center font-bold text-xl">{title}</h3>}
     >

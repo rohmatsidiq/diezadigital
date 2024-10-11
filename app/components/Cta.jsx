@@ -15,11 +15,12 @@ export default function Cta() {
   return (
     <div className="bg-black p-4 text-white py-10 mt-10">
       <div className="max-w-4xl mx-auto text-center">
-        <p className="text-center max-w-3xl mx-auto">
+        <p data-aos="zoom-in" className="text-center max-w-3xl mx-auto">
           Konsultasi langsung dengan kami untuk penjelasan lebih lengkap agar
           tidak salah memilih jenis website dan mendapatkan solusi yang terbaik!
         </p>
         <Button
+          data-aos="zoom-in"
           icon={<WhatsAppOutlined />}
           onClick={sendWhatsAppMessage}
           type="primary"

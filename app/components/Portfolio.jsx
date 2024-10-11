@@ -5,8 +5,10 @@ import ItemPortfolio from "./ItemPortfolio";
 export default function Portfolio() {
   return (
     <div className="max-w-6xl mx-auto mt-10 p-4 py-10">
-      <h1 className="font-bold text-center text-3xl">Portfolio</h1>
-      <p className="max-w-2xl text-center mx-auto mt-1">
+      <h1 data-aos="zoom-in" className="font-bold text-center text-3xl">
+        Portfolio
+      </h1>
+      <p data-aos="zoom-in" className="max-w-2xl text-center mx-auto mt-1">
         Berikut ini beberapa website yang telah kami kerjakan, bisa juga sebagai
         inspirasi/referensi desain website Anda.
       </p>

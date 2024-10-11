@@ -16,13 +16,13 @@ export default function Hero() {
   return (
     <div className="p-5 h-full w-full">
       <div className="w-full p-5 min-h-96 md:min-h-screen rounded-3xl bg-image text-center flex flex-col gap-9 justify-center items-center">
-        <h3
+        <h3 data-aos="zoom-in"
           style={{ textShadow: "0px 5px 16px #404040" }}
           className={`font-bold text-4xl md:text-6xl text-white max-w-3xl`}
         >
           Siap Tingkatkan Bisnis Anda?
         </h3>
-        <p
+        <p data-aos="zoom-in"
           style={{ textShadow: "0px 5px 16px #404040" }}
           className="max-w-3xl text-white text-lg md:text-xl font-bold"
         >
@@ -30,7 +30,7 @@ export default function Hero() {
           di bawah untuk konsultasi GRATIS dengan tim ahli kami.
         </p>
 
-        <Button
+        <Button data-aos="zoom-in"
           onClick={sendWhatsAppMessage}
           icon={<WhatsAppOutlined />}
           type="primary"

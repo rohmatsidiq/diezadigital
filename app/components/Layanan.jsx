@@ -13,14 +13,16 @@ export default function Layanan() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row gap-5">
           <div className="w-full flex gap-5 justify-center flex-col">
-            <h3 className="font-bold text-2xl">Layanan Kami</h3>
-            <h1 className="font-bold text-5xl">
+            <h3 data-aos="zoom-in" className="font-bold text-2xl">
+              Layanan Kami
+            </h3>
+            <h1 data-aos="zoom-in" className="font-bold text-5xl">
               Kami Menciptakan Produk Digital Terbaik
             </h1>
           </div>
           <div className="w-full">
             <div className="grid grid-cols-2 gap-5">
-              <Card className="border-none shadow-xl mb-10">
+              <Card data-aos="zoom-in" className="border-none shadow-xl mb-10">
                 <div className="bg-[#ffd800]  p-3 rounded-full w-16 h-16">
                   <GlobalOutlined className="text-5xl -mt-5 -ml-2" />
                 </div>
@@ -30,7 +32,7 @@ export default function Layanan() {
                   Anda.
                 </p>
               </Card>
-              <Card className="border-none shadow-xl mt-10">
+              <Card data-aos="zoom-in" className="border-none shadow-xl mt-10">
                 <div className="bg-[#ffd800]  p-3 rounded-full w-16 h-16">
                   <ShopOutlined className="text-5xl -mt-5 -ml-2" />
                 </div>
@@ -39,7 +41,7 @@ export default function Layanan() {
                   Solusi e-commerce lengkap, mudah digunakan, dan aman.
                 </p>
               </Card>
-              <Card className="border-none shadow-xl mb-10">
+              <Card data-aos="zoom-in" className="border-none shadow-xl mb-10">
                 <div className="bg-[#ffd800]  p-3 rounded-full w-16 h-16">
                   <ShoppingOutlined className="text-5xl -mt-5 -ml-2" />
                 </div>
@@ -48,7 +50,7 @@ export default function Layanan() {
                   Halaman promosi yang menarik untuk meningkatkan konversi.
                 </p>
               </Card>
-              <Card className="border-none shadow-xl mt-10">
+              <Card data-aos="zoom-in" className="border-none shadow-xl mt-10">
                 <div className="bg-[#ffd800]  p-3 rounded-full w-16 h-16">
                   <PicLeftOutlined className="text-5xl -mt-5 -ml-2" />
                 </div>
