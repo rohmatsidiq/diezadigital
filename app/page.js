@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 import Hero from "./components/Hero";
@@ -10,19 +10,21 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Stack from "./components/Stack";
 
 export default function Home() {
   useEffect(() => {
     AOS.init({
-        duration: 2000, // Durasi animasi dalam milidetik (opsional)
+      duration: 2000, // Durasi animasi dalam milidetik (opsional)
     });
-}, []);
+  }, []);
   return (
     <>
       <Hero />
       <Layanan />
       <Price />
       <Portfolio />
+      <Stack />
       <Cta />
       <Footer />
     </>

@@ -43,7 +43,7 @@ export default function Price() {
                 <CheckOutlined className="text-xl" />
               </div>
               <div>
-                <p>WP Platform</p>
+                <p>Wordpress</p>
               </div>
             </div>
 
@@ -97,7 +97,11 @@ export default function Price() {
           </div>
         </Card>
 
-        <Card data-aos="zoom-in" className="shadow-xl" style={{ border: "3px solid #ffd800" }}>
+        <Card
+          data-aos="zoom-in"
+          className="shadow-xl"
+          style={{ border: "3px solid #ffd800" }}
+        >
           <h3 className="text-center font-bold text-2xl">REGULER</h3>
           <h1 className="text-center font-bold text-4xl mt-3 mb-5">
             1.980.000
@@ -117,7 +121,7 @@ export default function Price() {
                 <CheckOutlined className="text-xl" />
               </div>
               <div>
-                <p>WP Platform</p>
+                <p>Wordpress</p>
               </div>
             </div>
 
@@ -191,7 +195,7 @@ export default function Price() {
                 <CheckOutlined className="text-xl" />
               </div>
               <div>
-                <p>WP Platform</p>
+                <p>Wordpress</p>
               </div>
             </div>
 
