@@ -12,7 +12,7 @@ export default function Stack() {
         Berikut ini beberapa teknologi yang kami gunakan untuk membuat website
         Anda
       </p>
-      <div className="mt-8 grid md:grid-cols-7 grid-cols-4 gap-3">
+      <div className="mt-8 grid md:grid-cols-7 grid-cols-2 gap-3">
         <div
           data-aos="zoom-in"
           className="bg-white h-[150px] flex justify-center items-center rounded-3xl p-3 hover:shadow-2xl"
