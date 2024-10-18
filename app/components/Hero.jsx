@@ -46,7 +46,7 @@ export default function Hero() {
       </div>
 
       <div className="w-full p-5">
-        <img data-aos="zoom-in" src="/man.svg" alt="" />
+        <img data-aos="zoom-in" src="/man.png" alt="hero image" />
       </div>
     </div>
   );
