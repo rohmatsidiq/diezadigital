@@ -22,8 +22,8 @@ export default function Warning() {
       </h3>
       <hr />
       <p data-aos="zoom-in">
-        Pricelist diatas untuk website yang dibangun menggunakan Wordpress
-        dengan beberapa kekurangannya{" "}
+        Harga diatas untuk website yang dibangun menggunakan Wordpress dengan
+        beberapa kekurangannya{" "}
         <small>(Silahkan seaching kekurangan Wordpress).</small>
       </p>
       <p data-aos="zoom-in">
