@@ -6,7 +6,7 @@ import { Button } from "antd";
 export default function Warning() {
   const sendWhatsAppMessage = () => {
     const phoneNumber = "6285227593225";
-    const message = "Halo, saya mau order website coding.";
+    const message = "Halo, saya mau konsultasi website coding.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -27,8 +27,8 @@ export default function Warning() {
         <small>(Silahkan seaching kekurangan Wordpress).</small>
       </p>
       <p data-aos="zoom-in">
-        Jika Anda ingin website custom yang dibangun dengan coding, silahkan
-        klik tombol dibawah ini..
+        Jika Anda ingin konsultasi website custom yang dibangun dengan coding,
+        silahkan klik tombol dibawah ini..
       </p>
 
       <div>
@@ -41,7 +41,7 @@ export default function Warning() {
           size="large"
           className="text-black text-bold"
         >
-          <b>ORDER WEBSITE CODING</b>
+          <b>KONSULTASI WEBSITE CODING</b>
         </Button>
       </div>
     </div>
