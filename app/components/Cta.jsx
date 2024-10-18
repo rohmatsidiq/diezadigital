@@ -13,9 +13,12 @@ export default function Cta() {
     window.open(url, "_blank");
   };
   return (
-    <div className="bg-black p-4 text-white py-10 mt-10">
+    <div className="py-20">
       <div className="max-w-4xl mx-auto text-center">
-        <p data-aos="zoom-in" className="text-center max-w-3xl mx-auto">
+        <p
+          data-aos="zoom-in"
+          className="text-center max-w-3xl mx-auto md:text-xl"
+        >
           Konsultasi langsung dengan kami untuk penjelasan lebih lengkap agar
           tidak salah memilih jenis website dan mendapatkan solusi yang terbaik!
         </p>

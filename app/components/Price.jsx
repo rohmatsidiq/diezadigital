@@ -3,6 +3,7 @@
 import { CheckOutlined, WhatsAppOutlined } from "@ant-design/icons";
 import { Button, Card } from "antd";
 import React from "react";
+import Warning from "./Warning";
 
 export default function Price() {
   const sendWhatsAppMessage = () => {
@@ -14,7 +15,7 @@ export default function Price() {
     window.open(url, "_blank");
   };
   return (
-    <div id="price" className="p-4 py-10">
+    <div id="price" className="p-4 py-20 bg-white">
       <div className="text-center">
         <h1 data-aos="zoom-in" className="font-bold text-4xl mb-3">
           Solusi Terbaik untuk Klien Kami
@@ -25,7 +26,7 @@ export default function Price() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-5 max-w-6xl mx-auto mt-10">
-        <Card data-aos="zoom-in" className="border-none shadow-xl">
+        <Card data-aos="zoom-in" className="border-2 shadow-xl">
           <h3 className="text-center font-bold text-2xl">BASIC</h3>
           <h1 className="text-center font-bold text-4xl mt-3 mb-5">980.000</h1>
           <div className="flex gap-3 flex-col text-gray-500">
@@ -175,7 +176,7 @@ export default function Price() {
           </div>
         </Card>
 
-        <Card data-aos="zoom-in" className="border-none shadow-xl">
+        <Card data-aos="zoom-in" className="border-2 shadow-xl">
           <h3 className="text-center font-bold text-2xl">PRO</h3>
           <h1 className="text-center font-bold text-4xl mt-3 mb-5">
             2.800.000
@@ -249,6 +250,8 @@ export default function Price() {
           </div>
         </Card>
       </div>
+
+      <Warning />
     </div>
   );
 }

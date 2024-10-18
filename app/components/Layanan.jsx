@@ -11,7 +11,7 @@ export default function Layanan() {
   return (
     <div className="p-5 py-20">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row gap-5">
+        <div className="flex flex-col md:flex-row gap-20 md:gap-5">
           <div className="w-full flex gap-5 justify-center flex-col">
             <h3 data-aos="zoom-in" className="font-bold text-2xl">
               Layanan Kami
