@@ -11,7 +11,7 @@ export default function Hero() {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
-    window.open(url, "_blank");
+    window.open(url);
   };
   return (
     <div className="p-5 py-20 h-full w-full flex gap-20 md:gap-5 md:flex-row flex-col bg-white">

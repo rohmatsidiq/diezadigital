@@ -10,7 +10,7 @@ export default function Warning() {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
-    window.open(url, "_blank");
+    window.open(url);
   };
   return (
     <div

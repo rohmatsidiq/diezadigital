@@ -12,7 +12,7 @@ export default function Price() {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
-    window.open(url, "_blank");
+    window.open(url);
   };
   return (
     <div id="price" className="p-4 py-20 bg-white">
