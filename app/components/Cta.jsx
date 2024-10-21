@@ -10,7 +10,8 @@ export default function Cta() {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
-    window.open(url);
+    // window.open(url);
+    window.location.href = url;
   };
   return (
     <div className="py-20">
