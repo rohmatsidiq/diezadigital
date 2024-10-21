@@ -7,7 +7,7 @@ import React from "react";
 export default function Hero() {
   const sendWhatsAppMessage = () => {
     const phoneNumber = "6285227593225";
-    const message = "Halo, saya tertarik untuk konsultasi pembuatan website.";
+    const message = "Halo, saya tertarik untuk konsultasi pembuatan website";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;

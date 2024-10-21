@@ -6,7 +6,7 @@ import { Button } from "antd";
 export default function Cta() {
   const sendWhatsAppMessage = () => {
     const phoneNumber = "6285227593225";
-    const message = "Halo, saya mau konsultasi jasa pembuatan website.";
+    const message = "Halo, saya mau konsultasi jasa pembuatan website";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
