@@ -35,9 +35,7 @@ export default function Warning() {
       <div data-aos="zoom-in">
         <a
           className="bg-white rounded-full px-4 py-2"
-          href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-            message
-          )}`}
+          href={`https://wa.me/${phoneNumber}`}
         >
           <WhatsAppOutlined /> HUBUNGI KAMI
         </a>

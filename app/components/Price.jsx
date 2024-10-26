@@ -89,9 +89,7 @@ export default function Price() {
             <div data-aos="zoom-in" className="w-full flex">
               <a
                 className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2 w-full text-center hover:text-black"
-                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                  message
-                )}`}
+                href={`https://wa.me/${phoneNumber}`}
               >
                 <WhatsAppOutlined /> HUBUNGI KAMI
               </a>
@@ -167,9 +165,7 @@ export default function Price() {
             <div data-aos="zoom-in" className="w-full flex">
               <a
                 className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2 w-full text-center hover:text-black"
-                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                  message
-                )}`}
+                href={`https://wa.me/${phoneNumber}`}
               >
                 <WhatsAppOutlined /> HUBUNGI KAMI
               </a>
@@ -241,9 +237,7 @@ export default function Price() {
             <div data-aos="zoom-in" className="w-full flex">
               <a
                 className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2 w-full text-center hover:text-black"
-                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                  message
-                )}`}
+                href={`https://wa.me/${phoneNumber}`}
               >
                 <WhatsAppOutlined /> HUBUNGI KAMI
               </a>

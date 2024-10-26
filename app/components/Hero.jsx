@@ -46,9 +46,7 @@ export default function Hero() {
           <div data-aos="zoom-in">
             <a
               className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2"
-              href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                message
-              )}`}
+              href={`https://wa.me/${phoneNumber}`}
             >
               <WhatsAppOutlined /> HUBUNGI KAMI
             </a>
