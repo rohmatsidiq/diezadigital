@@ -4,9 +4,9 @@ import { WhatsAppOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 
 export default function Warning() {
+  const phoneNumber = "6285227593225";
+  const message = "Halo, saya mau konsultasi website coding";
   const sendWhatsAppMessage = () => {
-    const phoneNumber = "6285227593225";
-    const message = "Halo, saya mau konsultasi website coding";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -32,18 +32,15 @@ export default function Warning() {
         silahkan klik tombol dibawah ini..
       </p>
 
-      <div>
-        <Button
-          data-aos="zoom-in"
-          onClick={sendWhatsAppMessage}
-          icon={<WhatsAppOutlined />}
-          // type="primary"
-          shape="round"
-          size="large"
-          className="text-black text-bold"
+      <div data-aos="zoom-in">
+        <a
+          className="bg-white rounded-full px-4 py-2"
+          href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+            message
+          )}`}
         >
-          <b>KONSULTASI WEBSITE CODING</b>
-        </Button>
+          <WhatsAppOutlined /> HUBUNGI KAMI
+        </a>
       </div>
     </div>
   );

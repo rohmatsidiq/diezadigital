@@ -4,9 +4,9 @@ import { WhatsAppOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 
 export default function Cta() {
+  const phoneNumber = "6285227593225";
+  const message = "Halo, saya mau konsultasi jasa pembuatan website";
   const sendWhatsAppMessage = () => {
-    const phoneNumber = "6285227593225";
-    const message = "Halo, saya mau konsultasi jasa pembuatan website";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -23,17 +23,16 @@ export default function Cta() {
           Konsultasi langsung dengan kami untuk penjelasan lebih lengkap agar
           tidak salah memilih jenis website dan mendapatkan solusi yang terbaik!
         </p>
-        <Button
-          data-aos="zoom-in"
-          icon={<WhatsAppOutlined />}
-          onClick={sendWhatsAppMessage}
-          type="primary"
-          shape="round"
-          size="large"
-          className="mt-5 text-black text-bold"
-        >
-          KONSULTASI VIA WHATSAPP
-        </Button>
+        <div data-aos="zoom-in" className="mt-5">
+          <a
+            className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2"
+            href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+              message
+            )}`}
+          >
+            <WhatsAppOutlined /> HUBUNGI KAMI
+          </a>
+        </div>
       </div>
     </div>
   );

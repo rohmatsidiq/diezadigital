@@ -6,9 +6,9 @@ import React from "react";
 import Warning from "./Warning";
 
 export default function Price() {
+  const phoneNumber = "6285227593225";
+  const message = "Halo, saya mau order jasa pembuatan website";
   const sendWhatsAppMessage = () => {
-    const phoneNumber = "6285227593225";
-    const message = "Halo, saya mau order jasa pembuatan website";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -86,16 +86,16 @@ export default function Price() {
             </div>
           </div>
           <div className="mt-6 w-full">
-            <Button
-              icon={<WhatsAppOutlined />}
-              onClick={sendWhatsAppMessage}
-              type="primary"
-              shape="round"
-              size="large"
-              className="w-full text-black text-bold"
-            >
-              ORDER VIA WHATSAPP
-            </Button>
+            <div data-aos="zoom-in" className="w-full flex">
+              <a
+                className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2 w-full text-center hover:text-black"
+                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                  message
+                )}`}
+              >
+                <WhatsAppOutlined /> HUBUNGI KAMI
+              </a>
+            </div>
           </div>
         </Card>
 
@@ -164,16 +164,16 @@ export default function Price() {
             </div>
           </div>
           <div className="mt-6 w-full">
-            <Button
-              icon={<WhatsAppOutlined />}
-              onClick={sendWhatsAppMessage}
-              type="primary"
-              shape="round"
-              size="large"
-              className="w-full text-black text-bold"
-            >
-              ORDER VIA WHATSAPP
-            </Button>
+            <div data-aos="zoom-in" className="w-full flex">
+              <a
+                className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2 w-full text-center hover:text-black"
+                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                  message
+                )}`}
+              >
+                <WhatsAppOutlined /> HUBUNGI KAMI
+              </a>
+            </div>
           </div>
         </Card>
 
@@ -238,16 +238,16 @@ export default function Price() {
             </div>
           </div>
           <div className="mt-6 w-full">
-            <Button
-              icon={<WhatsAppOutlined />}
-              onClick={sendWhatsAppMessage}
-              type="primary"
-              shape="round"
-              size="large"
-              className="w-full text-black text-bold"
-            >
-              ORDER VIA WHATSAPP
-            </Button>
+            <div data-aos="zoom-in" className="w-full flex">
+              <a
+                className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2 w-full text-center hover:text-black"
+                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                  message
+                )}`}
+              >
+                <WhatsAppOutlined /> HUBUNGI KAMI
+              </a>
+            </div>
           </div>
         </Card>
       </div>

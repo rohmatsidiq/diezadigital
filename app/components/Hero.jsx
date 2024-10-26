@@ -5,9 +5,9 @@ import { Button } from "antd";
 import React from "react";
 
 export default function Hero() {
+  const phoneNumber = "6285227593225";
+  const message = "Halo, saya tertarik untuk konsultasi pembuatan website";
   const sendWhatsAppMessage = () => {
-    const phoneNumber = "6285227593225";
-    const message = "Halo, saya tertarik untuk konsultasi pembuatan website";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -31,7 +31,7 @@ export default function Hero() {
         </p>
 
         <div>
-          <Button
+          {/* <Button
             data-aos="zoom-in"
             onClick={sendWhatsAppMessage}
             icon={<WhatsAppOutlined />}
@@ -41,7 +41,18 @@ export default function Hero() {
             className="text-black text-bold"
           >
             <b>HUBUNGI KAMI</b>
-          </Button>
+          </Button> */}
+
+          <div data-aos="zoom-in">
+            <a
+              className="bg-green-500 hover:bg-green-400 rounded-full px-4 py-2"
+              href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                message
+              )}`}
+            >
+              <WhatsAppOutlined /> HUBUNGI KAMI
+            </a>
+          </div>
         </div>
       </div>
 
